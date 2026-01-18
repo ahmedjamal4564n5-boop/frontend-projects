@@ -1,0 +1,23 @@
+.About {
+  padding-top: 150px;
+}
+.About .tit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  border-bottom: 1px solid var(--border-color);
+  padding: 20px 5px;
+  font-size: 1.6rem;
+}
+.About .prgr{
+  font-size: 22px;
+  font-weight: 200;
+  margin-top: 30px;
+  line-height: 30px;
+}
+.About .prgr p{
+  color: rgb(45, 45, 45);
+  text-align: center;
+}

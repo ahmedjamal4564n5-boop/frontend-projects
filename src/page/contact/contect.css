@@ -1,0 +1,66 @@
+.contect {
+  padding-top: 150px;
+}
+.contect .tit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  border-bottom: 1px solid var(--border-color);
+  padding: 20px 5px;
+  font-size: 1.6rem;
+}
+
+.contect form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+  align-items: center;
+  width: 100%;
+  
+}
+.contect form div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.contect form input {
+  width: 40%;
+  padding: 14px;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.contect form textarea {
+  width: 40%;
+  padding: 14px;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  height: 150px;
+}
+.contect form button{
+  padding: 15px 30px;
+  background-color: var(--main-color);
+  cursor: pointer;
+  border-radius: 7px;
+  color: white;
+  font-size: 17px;
+}
+.contect form button:hover{
+  background-color: var(--color-hadeng);
+}
+@media (max-width: 768px) {
+  .contect form input {
+  width: 100%;
+}
+.contect form textarea {
+  width: 100%;
+}
+}

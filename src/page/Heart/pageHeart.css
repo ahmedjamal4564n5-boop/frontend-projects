@@ -1,0 +1,15 @@
+.products {
+  display: flex;
+  flex-wrap: wrap;       
+  gap: 20px;              
+  width: 100%;
+  border: none;
+}
+
+.products > * {
+  flex: 0 0 250px; 
+}
+.heart{
+    padding-top: 150px;
+
+}

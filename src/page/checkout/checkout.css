@@ -1,0 +1,112 @@
+.checkout{
+  padding-top: 150px;
+}
+.checkout .tit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  border-bottom: 1px solid var(--border-color);
+  padding: 20px 5px;
+  font-size: 1.6rem;
+}
+.checkout .bod{
+  display: flex;
+  gap: 15px;
+  align-items: baseline;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+.checkout .bildeing{
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 70%;
+  
+}
+.checkout .bildeing .head{
+  width: 100%;
+  background-color: var(--bg-color);
+  padding: 20px;
+  border-bottom: 1px solid var(--border-color);
+}
+.checkout .bildeing  form{
+  padding: 20px;
+}
+.checkout .bildeing  form input{
+  width: 100%;
+  padding: 15px;
+  border: 1px solid var(--border-color);
+  margin-bottom: 20px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+.checkout .bildeing form label{
+  margin-left: 10px;
+  text-transform: capitalize;
+  color: rgb(83, 84, 84);
+}
+.checkout .bildeing .us{
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+.checkout .bildeing .us div{
+  width: 50%;
+}
+.checkout .btnck{
+  width: 100%;
+  border-top: 1px solid var(--border-color);
+  padding: 20px;
+
+}
+.checkout .btnck button{
+  width: 100% ;
+  text-align: center;
+  padding: 15px;
+  background-color: var(--main-color);
+  font-size: 20px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.checkout .Order-Summary{
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 30%;
+  padding-bottom: 30px;
+
+}
+.checkout .Order-Summary .ord{
+  width: 100%;
+  background-color: var(--bg-color);
+  padding: 20px;
+  border-bottom: 1px solid var(--border-color);
+}
+.checkout .Order-Summary .Products{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 20px;
+}
+@media (max-width: 768px) {
+  .checkout .bod{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.checkout .bildeing{
+
+  width: 100%;
+  
+}
+.checkout .Order-Summary {
+  width: 100%;
+}
+}

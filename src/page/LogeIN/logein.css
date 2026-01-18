@@ -1,0 +1,133 @@
+.login {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--border-color);
+}
+.login .contaner .header {
+  width: 130px;
+  padding-top: 40px;
+  cursor: pointer;
+}
+.login .form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login form {
+  background-color: white;
+  padding: 25px 40px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 15px 0px #b2b1b16b;
+}
+.login form .text-tep {
+  margin-bottom: 40px;
+  line-height: 35px;
+}
+.login form input {
+  width: 100%;
+  border: 1px solid var(--border-color);
+  padding: 20px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  box-shadow: 1px 2px 15px 0px #b2b1b16b;
+  margin-top: 20px;
+}
+.login form label {
+  margin-top: 20px;
+}
+.login form .forge {
+  display: flex;
+  justify-content: space-between;
+}
+.login form .forge div {
+  display: flex;
+}
+.login form .forge input {
+  display: flex;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.login form .forge a {
+  text-decoration: underline;
+  color: #0090f0;
+}
+.login form button {
+  width: 100%;
+  padding: 17px;
+  border-radius: 10px;
+  background-color: #0090f0;
+  color: white;
+  font-size: 16px;
+  margin-top: 60px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-bottom: 10px;
+}
+.login form .btn-googl {
+  background-color: white;
+  color: black;
+  border: 1px solid var(--border-color);
+  box-shadow: 1px 2px 15px 0px #b2b1b16b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.login form .btn-googl svg {
+  font-size: 23px;
+  margin-right: 3px;
+}
+.login form button:hover {
+  scale: 1.06;
+}
+.login form .prg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login form .prg a {
+  color: #0090f0;
+  text-decoration: underline;
+}
+.login form .user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+@media (max-width: 767px) {
+  .login .contaner {
+    width: 100%;
+  }
+  .login form {
+    padding: 40px;
+    box-shadow: 0px 0px 0px 0px #b2b1b16b;
+    height: 100vh;
+  }
+  .login {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+  }
+  .login .contaner .header {
+    width: 130px;
+    padding-top: 50px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+}
+@media (max-width: 992px) {
+  .login form {
+    margin-top: 150px;
+  }
+}
+@media (max-width: 1200px) {
+  .login form {
+    margin-top: 50px;
+  }
+}

@@ -1,0 +1,25 @@
+.categopage {
+  padding-top: 150px;
+}
+.prodect {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+  .prodect {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    margin: 0px 8px;
+  }
+  .categopage .contaner {
+    width: 98%;
+
+    max-width: none;
+  }
+  .text{
+    margin-left: 15px;
+  }
+}

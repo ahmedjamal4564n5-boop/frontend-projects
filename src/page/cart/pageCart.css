@@ -1,0 +1,166 @@
+.pagcart {
+  padding-top: 130px;
+}
+.page-cart {
+  width: 660px;
+  height: 600px;
+  border: 1px solid var(--border-color);
+  position: relative;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 15px;
+  box-shadow: 1px 1px 17px 3px #d2c8c878;
+  overflow: hidden;
+}
+.page-cart .cart h1 {
+  color: var(--main-color);
+  padding: 15px 2px;
+  border-bottom: 1px solid var(--border-color);
+  background-color: var(--withe-color);
+}
+
+.page-cart .img_cart {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid var(--border-color);
+  padding: 12px 0px;
+  position: relative;
+}
+
+.page-cart .items {
+  overflow-y: auto;
+  height: 320px;
+}
+.page-cart .img_cart img {
+  width: 90px;
+  height: 80px;
+  margin-right: 20px;
+}
+.page-cart .img_cart .conent h4 {
+  margin-bottom: 10px;
+}
+.page-cart .img_cart .conent p {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.page-cart .content {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.page-cart .content button {
+  padding: 4px 6px;
+  border: 1px solid var(--border-color);
+  border-radius: 3px;
+  cursor: pointer;
+}
+.page-cart .content p {
+  width: 45px;
+  padding: 1px 0px;
+  margin-top: 8px;
+  text-align: center;
+  border: 1px solid var(--border-color);
+  border-radius: 3px;
+  font-size: 10px;
+  color: var(--main-color);
+}
+.page-cart .img_cart .btn-dalet {
+  position: absolute;
+  right: 30px;
+}
+.page-cart .img_cart .btn-dalet button {
+  background-color: white;
+  cursor: pointer;
+}
+.page-cart .img_cart .btn-dalet svg {
+  font-size: 23px;
+  color: rgb(239, 4, 4);
+  transition: 0.3s;
+}
+.page-cart .img_cart .btn-dalet svg:hover {
+  font-size: 28px;
+  scale: 1.001;
+}
+.page-cart .botten {
+  position: fixed;
+  bottom: 0px;
+  width: 95%;
+  background-color: white;
+}
+.page-cart .botten .totel {
+  padding: 20px 5px;
+  border-top: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.page-cart .botten .totel span {
+  font-size: 18px;
+  font-weight: 700;
+}
+.page-cart .botten .btn-btn {
+  padding: 20px 5px;
+  border-top: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+}
+.page-cart .botten .btn-btn .bo {
+  width: 100%;
+}
+.page-cart .botten .btn-btn button {
+  width: 100%;
+  height: 60px;
+  border: 2px solid var(--main-color);
+  background-color: var(--main-color);
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+}
+.page-cart .botten .btn-btn button:hover {
+  background-color: white;
+  color: black;
+}
+.page-cart .undfin {
+  padding: 20px;
+}
+@media (max-width: 768px) {
+  .pagcart {
+    padding-top: 80px;
+  }
+  .page-cart {
+    width: 100%;
+    height: calc(100vh - 110px);
+
+    padding: 15px;
+    overflow: hidden;
+  }
+  .page-cart .cart h1{
+    font-size: 20px;
+  }
+  .page-cart .items {
+    overflow-y: auto;
+    height:320px;
+  }
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+  .page-cart {
+    width: 80%;
+    height: 900px;
+    padding: 15px;
+    overflow: hidden;
+  }
+  .page-cart .items {
+    overflow-y: auto;
+    height: 600px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contaner {
+    width: 1170px;
+  }
+}
