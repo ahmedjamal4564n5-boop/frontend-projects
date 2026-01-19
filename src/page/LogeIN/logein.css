@@ -39,6 +39,7 @@
 .login form .forge {
   display: flex;
   justify-content: space-between;
+  margin-top: 15px;
 }
 .login form .forge div {
   display: flex;
@@ -61,7 +62,7 @@
   background-color: #0090f0;
   color: white;
   font-size: 16px;
-  margin-top: 60px;
+  margin-top: 30px;
   cursor: pointer;
   transition: 0.3s;
   margin-bottom: 10px;

@@ -73,10 +73,6 @@ function SingeUp() {
             {error && <p style={{ color: "red" }}>{error}</p>}
 
             <div className="forge">
-              <div>
-                <input type="checkbox" />
-                <label>Remember For 30 days</label>
-              </div>
               <a href="#">Forgot password</a>
             </div>
 
