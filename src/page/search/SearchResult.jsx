@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router";
 import "./searchResult.css";
 import Prodect from "../../componet/slidePrudect/Prodect";
+import Footer from "../../componet/footer/Footer";
 function SearchResult() {
   const [result, setResult] = useState([]);
   const [lodeing, setLodeing] = useState(true);
@@ -45,6 +46,7 @@ function SearchResult() {
           <p>No Result found.</p>
         </div>
       )}
+      <Footer />
     </div>
   );
 }

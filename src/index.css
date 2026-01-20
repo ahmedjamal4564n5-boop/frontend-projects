@@ -46,10 +46,10 @@ a {
   text-decoration: none;
   color: var(--color-hadeng);
 }
-.contaner {
-  width: 90%;
+body .contaner {
+  width: 97%;
   margin: 0 auto;
-  max-width: 1350px;
+  max-width: 1400px;
 }
 header {
   position: fixed;

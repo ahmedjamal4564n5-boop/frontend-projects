@@ -1,5 +1,6 @@
 import React from "react";
 import "./about.css";
+import Footer from "../../componet/footer/Footer";
 
 function About() {
   return (
@@ -28,6 +29,7 @@ function About() {
         </div>
 
       </div>
+      <Footer />
     </div>
   );
 }

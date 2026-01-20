@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import "./checkout.css";
 import { CartContext } from "../../componet/context/CartContext";
+import Footer from "../../componet/footer/Footer";
 
 function CheckOut() {
   
@@ -65,6 +66,7 @@ function CheckOut() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

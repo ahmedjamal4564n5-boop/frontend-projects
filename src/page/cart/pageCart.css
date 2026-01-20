@@ -1,5 +1,6 @@
 .pagcart {
   padding-top: 130px;
+  
 }
 .page-cart {
   width: 660px;
@@ -12,6 +13,7 @@
   padding: 15px;
   box-shadow: 1px 1px 17px 3px #d2c8c878;
   overflow: hidden;
+  margin-bottom: 50px;
 }
 .page-cart .cart h1 {
   color: var(--main-color);

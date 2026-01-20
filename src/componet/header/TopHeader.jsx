@@ -11,8 +11,7 @@ import Search from "./Search";
 
 function TopHeader() {
   const { cartproved } = useContext(CartContext);
-    const { heartproved } = useContext(CartContext);
-
+  const { heartproved } = useContext(CartContext);
 
   return (
     <div className="tp-header">
@@ -20,9 +19,9 @@ function TopHeader() {
         <Link className="imgelogo" to="/">
           <img src={logo} alt="" />
         </Link>
-        <Search  />
+        <Search />
         <div className="header-icon">
-          <Link to='/heart' className="icon">
+          <Link to="/heart" className="icon">
             <FaRegHeart />
             <span className="count">{heartproved.length}</span>
           </Link>

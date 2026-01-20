@@ -4,6 +4,7 @@ import "./pageHeart.css"
 import { useContext } from "react";
 import { CartContext } from "../../componet/context/CartContext";
 import Prodect from "../../componet/slidePrudect/Prodect";
+import Footer from "../../componet/footer/Footer";
 function PageHeart() {
   const { heartproved } = useContext(CartContext);
   return (
@@ -24,6 +25,7 @@ function PageHeart() {
           )}
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

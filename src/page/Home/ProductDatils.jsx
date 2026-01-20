@@ -10,6 +10,7 @@ import SlideProdect from "../../componet/slidePrudect/SlideProdect";
 import ProductDatelisLoding from "./ProductDatelisLoding";
 import toast from "react-hot-toast";
 import { CartContext } from "../../componet/context/CartContext";
+import Footer from "../../componet/footer/Footer";
 
 function ProductDatils() {
   const [productId, setProductId] = useState(null);
@@ -154,6 +155,7 @@ function ProductDatils() {
           />
         )}
       </div>
+      <Footer />
     </div>
   );
 }

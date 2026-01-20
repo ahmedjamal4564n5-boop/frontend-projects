@@ -1,0 +1,141 @@
+.footer {
+  background-color: #242424;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+.footer .footer1 img {
+  width: 100px;
+}
+.footer .footer1 .img {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+.footer .footer1 .img h1 {
+  color: var(--main-color);
+  font-size: 45px;
+  font-weight: 900;
+}
+.footer .footer1 .img h1 span {
+  font-size: 13px;
+  color: white;
+}
+.footer .footer1 .img h1 p {
+  font-size: 13px;
+}
+.footer .footer1 .img h1 div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.footer .icon {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.footer .icon .icon-ic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+}
+.footer .icon .icon-ic svg {
+  font-size: 22px;
+  color: var(--main-color);
+}
+.footer .footer1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.footer .footer1 .logo .p {
+  width: 320px;
+  margin-bottom: 30px;
+  line-height: 24px;
+  color: #a6a6a6;
+  font-weight: 500;
+}
+.footer .footer1 .find h2 {
+  color: white;
+  padding: 8px 0px;
+  border-bottom: 1px solid var(--main-color);
+}
+.footer .footer1 .find ul li {
+  list-style: none;
+  margin-top: 20px;
+}
+.footer .footer1 .find ul li a {
+  color: var(--main-color);
+}
+.footer .footer2 {
+  margin-top: 40px;
+  background-color: #272727;
+  padding: 10px;
+}
+.footer .footer2 .sol {
+  display: flex;
+  align-items: center;
+  color: #a6a6a6;
+  gap: 5px;
+  justify-content: center;
+}
+.footer .footer2 .sol .col {
+  color: var(--main-color);
+}
+.footer .sol h2 {
+  color: #a6a6a6;
+}
+@media (max-width: 768px) {
+  .footer .footer1 img {
+    width: 50px;
+  }
+  .footer .footer1 .img h1 {
+    color: var(--main-color);
+    font-size: 25px;
+    font-weight: 900;
+  }
+  .footer .footer1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .footer .icon .icon-ic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+  }
+  .footer .icon .icon-ic svg {
+    font-size: 20px;
+    color: var(--main-color);
+  }
+  .footer .footer2 .sol .col {
+  color: var(--main-color);
+  font-size: 18px;
+}
+.footer .sol h2 {
+  color: #a6a6a6;
+  font-size: 18px;
+}
+}
+@media (max-width: 992px) and (min-width: 768px){
+  .footer .footer1 .logo{
+    width: 100%;
+    margin-bottom: 30px;
+    margin-left: 50px;
+  }
+  .footer .footer1 {
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  
+}

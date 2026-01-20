@@ -14,6 +14,7 @@ import CheckOut from "./page/checkout/CheckOut";
 import Contact from "./page/contact/Contact";
 import About from "./page/about/About";
 import SearchResult from "./page/search/SearchResult";
+import Footer from "./componet/footer/Footer";
 
 function App() {
   const location = useLocation();

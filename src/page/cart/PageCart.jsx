@@ -4,6 +4,7 @@ import { CartContext } from "../../componet/context/CartContext";
 import { FaPlus, FaMinus } from "react-icons/fa6";
 import { FaTrashCan } from "react-icons/fa6";
 import { Link } from "react-router";
+import Footer from "../../componet/footer/Footer";
 function PageCart() {
 
   
@@ -56,6 +57,7 @@ function PageCart() {
         </div>
       </div>
     </div>
+    <Footer />
     </div>
   );
 }

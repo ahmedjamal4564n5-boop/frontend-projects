@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Hearoslider from "../../componet/Hearoslider";
 import "./Home.css";
 import SlideProdect from "../../componet/slidePrudect/SlideProdect";
+import Footer from "../../componet/footer/Footer";
 const NavCatogre = [
   "smartphones",
   "mobile-accessories",
@@ -57,6 +58,7 @@ function Home() {
           />
         ))
       )}
+      <Footer />
     </div>
   );
 }

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import Prodect from "../../../componet/slidePrudect/Prodect";
 import './categoriePage.css'
+import Footer from "../../../componet/footer/Footer";
 
 function CategoriePage() {
   const { category } = useParams();
@@ -27,6 +28,7 @@ function CategoriePage() {
           ))}
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

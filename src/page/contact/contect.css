@@ -1,6 +1,9 @@
 .contect {
   padding-top: 150px;
 }
+.contect .contaner{
+  margin-bottom: 50px;
+}
 .contect .tit {
   display: flex;
   justify-content: center;

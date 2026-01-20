@@ -1,5 +1,6 @@
 import React from "react";
 import "./contect.css";
+import Footer from "../../componet/footer/Footer";
 function Contact() {
   return (
     <div className="contect">
@@ -24,6 +25,7 @@ function Contact() {
           <button>Send</button>
         </form>
       </div>
+      <Footer />
     </div>
   );
 }
